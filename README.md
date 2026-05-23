@@ -36,34 +36,33 @@ Las condiciones experimentales son:
 ## Estructura del repositorio
 .
 ├── README.md
-├── 17h55m39s-12-May.txt               # Registro neuronal bruto (electrofisiología)
-├── intervalos_originales_tramo_1.txt  # Intervalos extraídos, tramo 1
-├── intervalos_originales_tramo_2.txt  # Intervalos extraídos, tramo 2
-├── intervalos_originales_tramo_3.txt  # Intervalos extraídos, tramo 3
+├── Archivos_Datos_Raíz/
+│   ├── 17h55m39s-12-May.txt               # Registro neuronal bruto (electrofisiología)
+│   ├── intervalos_originales_tramo_1.txt  # Intervalos extraídos, tramo 1
+│   ├── intervalos_originales_tramo_2.txt  # Intervalos extraídos, tramo 2
+│   └── intervalos_originales_tramo_3.txt  # Intervalos extraídos, tramo 3
 │
 ├── Códigos/
-│   ├── Análisis del invariante/       # Pipeline neuronal (Python + Jupyter)
+│   ├── Análisis del invariante/           # Pipeline neuronal (Python + Jupyter)
 │   │   ├── deteccionYanalisis.ipynb
 │   │   ├── DivisionEnEnsayos.ipynb
 │   │   └── enviar_intervalos.py
 │   │
-│   ├── Análisis del robot/            # Pipeline cinemático (Python + Jupyter)
+│   ├── Análisis del robot/                # Pipeline cinemático (Python + Jupyter)
 │   │   ├── seguimiento_cuerpo_pata.py
 │   │   ├── AnalisisPataYvelocidad.ipynb
-│   │   └── kinematics/                # Datos cinemáticos generados (px y cm)
+│   │   └── kinematics/                    # Datos cinemáticos generados (px y cm)
 │   │
 │   └── Código Arduino/
 │       └── control_Robot_bluetooth_mejorado/
 │           ├── control_Robot_bluetooth_mejorado.ino
-│           ├── Oscillator.h / Oscillator.cpp
+│           ├── Oscillator.cpp
+│           ├── Oscillator.h
 │           └── ejecutar_intervalos.py
 │
-├── Vídeos/                            # [Alojados en Google Drive debido a su peso]
-│   └── (Ver enlace al principio del documento para acceder a las carpetas exp1, exp2, exp3)
-│
-└── Gráficas/   # PDFs y SVGs exportados del análisis cinemático
-
----
+├── Gráficas/                              # PDFs y SVGs exportados del análisis cinemático
+└── Vídeos/                                # [Alojados en Google Drive debido a su peso]
+    └── (Ver enlace al principio del documento para acceder a exp1, exp2, exp3)
 
 ## Descripción de los scripts
 
