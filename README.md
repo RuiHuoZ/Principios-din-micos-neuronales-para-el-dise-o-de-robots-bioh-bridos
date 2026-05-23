@@ -1,6 +1,6 @@
 # Principios Dinámicos Neuronales para el Diseño de Robots Biohíbridos
 
-Este repositorio contiene el código, los datos y los análisis del Trabajo de Fin de Grado (TFG) centrado en la transferencia de patrones rítmicos neuronales del cangrejo de herradura (*Limulus polyphemus*) a un robot cuadrúpedo bioinspirado. El objetivo es investigar si los **invariantes de la marcha** presentes en la actividad neuronal biológica se conservan y producen ventajas locomotoras cuando se implantan en un robot físico.
+Este repositorio contiene el código, los datos y los análisis del Trabajo de Fin de Grado (TFG) centrado en la transferencia de patrones rítmicos neuronales de un CPG pilórico a un robot cuadrúpedo bioinspirado. El objetivo es investigar si los **invariantes dinámicos secuenciales** presentes en la actividad neuronal biológica se conservan y producen ventajas locomotoras cuando se transfieren a un robot físico.
 
 ---
 
@@ -19,7 +19,7 @@ Este repositorio contiene el código, los datos y los análisis del Trabajo de F
 
 ## Contexto del proyecto
 
-El sistema nervioso central del cangrejo de herradura contiene generadores de patrón central (CPG) que producen oscilaciones rítmicas con propiedades dinámicas estables. En este trabajo se registran actividades intracelulares de las neuronas **LP** y **PD**, se extraen los intervalos entre ráfagas y se mapean directamente como señales de control (amplitud y período) para mover un robot cangrejo con tres servomotores. Los vídeos de los ensayos robóticos se analizan cinemáticamente para comparar la velocidad y la calidad de la marcha según la condición experimental utilizada.
+Los generadores de patrón central (CPG) que producen oscilaciones rítmicas con propiedades dinámicas estables. En este trabajo se registran actividades intracelulares de las neuronas **LP** y **PD**, se extraen los intervalos ciclo a ciclo y se mapean directamente como señales de control (amplitud y período) para mover un robot cangrejo con tres servomotores. Los vídeos de los ensayos robóticos se analizan cinemáticamente para comparar la velocidad y la calidad de la marcha según la condición experimental utilizada.
 
 Las condiciones experimentales son:
 - **Invariante** — patrón neuronal con invariante de marcha preservado.
