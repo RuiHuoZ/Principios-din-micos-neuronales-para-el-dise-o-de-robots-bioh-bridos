@@ -34,13 +34,13 @@ Las condiciones experimentales son:
 ---
 
 ## Estructura del repositorio
+```text
 .
 ├── README.md
-├── Archivos_Datos_Raíz/
-│   ├── 17h55m39s-12-May.txt               # Registro neuronal bruto (electrofisiología)
-│   ├── intervalos_originales_tramo_1.txt  # Intervalos extraídos, tramo 1
-│   ├── intervalos_originales_tramo_2.txt  # Intervalos extraídos, tramo 2
-│   └── intervalos_originales_tramo_3.txt  # Intervalos extraídos, tramo 3
+├── 17h55m39s-12-May.txt               # Registro neuronal bruto (electrofisiología)
+├── intervalos_originales_tramo_1.txt  # Intervalos extraídos, tramo 1
+├── intervalos_originales_tramo_2.txt  # Intervalos extraídos, tramo 2
+├── intervalos_originales_tramo_3.txt  # Intervalos extraídos, tramo 3
 │
 ├── Códigos/
 │   ├── Análisis del invariante/           # Pipeline neuronal (Python + Jupyter)
