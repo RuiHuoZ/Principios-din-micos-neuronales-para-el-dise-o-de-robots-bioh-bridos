@@ -62,8 +62,8 @@ Las condiciones experimentales son:
 │
 ├── Gráficas/                              # PDFs y SVGs exportados del análisis cinemático
 └── Vídeos/                                # [Alojados en Google Drive debido a su peso]
-    └── (Ver enlace al principio del documento para acceder a exp1, exp2, exp3)
-
+    └── (Ver enlace al principio del documento para acceder a exp1, exp2, exp3) 
+```
 ## Descripción de los scripts
 
 ### `Códigos/Análisis del robot/seguimiento_cuerpo_pata.py`
